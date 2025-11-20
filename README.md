@@ -259,6 +259,80 @@ Next.js automatically revalidates:
 
 ---
 
+Absolutely — here is a clean, ready-to-paste **README section** explaining how to **import the Strapi v5 seed**.
+
+You can add this under a section like **“📥 Importing Strapi Seed (Content Export)”** in your README.
+
+---
+
+# 📥 Importing Strapi Seed (Strapi v5)
+
+This project includes a full **Strapi v5 export** containing:
+
+* Content-types (Post, Category, Tag, Author, Subscriber)
+* Collection data (sample posts, authors, categories, tags)
+* Configuration
+* Relations
+
+The export file is located at:
+
+```
+strapi-seed/export_20251120220419.tar.gz.enc
+```
+
+Strapi v5 uses **encrypted export files**, so you do **not** unzip or modify this file.
+
+---
+
+## 🔄 How to Import the Strapi Export
+
+### **1. Start with a clean Strapi project**
+
+If you haven’t installed dependencies:
+
+```bash
+cd strapi-blog-cms
+npm install
+```
+
+Start Strapi once so it initializes:
+
+```bash
+npm run develop
+```
+
+Then stop it (`Ctrl + C`).
+
+---
+
+### **2. Run the Strapi import command**
+
+From inside the Strapi backend folder:
+
+```bash
+cd strapi-blog-cms
+npx strapi import ../strapi-seed/export_20251120220419.tar.gz.enc
+```
+
+> ✔️ Replace the path if your seed file is somewhere else.
+
+Strapi will:
+
+* Import all content-types
+* Import all sample data
+* Re-create relations
+* Restore configurations
+
+---
+
+### **3. Start Strapi again**
+
+```bash
+npm run develop
+```
+
+---
+
 # 📊 Diagrams
 
 All diagrams provided in PlantUML + PNG.
