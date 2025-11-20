@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Light mode defaults */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Dark mode overrides (applies when .dark class is on <html>) */
+:root.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* Page default styling */
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
