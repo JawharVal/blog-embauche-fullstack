@@ -359,6 +359,8 @@ All diagrams provided in PlantUML + PNG.
 
 # 🚀 Deployment
 
+Note : Depoloyment will be made in the future due to the limitation of time and resources.
+
 ### **Frontend — Vercel**
 
 * Add `.env` variables
