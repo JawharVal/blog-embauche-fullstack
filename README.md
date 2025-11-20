@@ -373,25 +373,6 @@ Note : Depoloyment will be made in the future due to the limitation of time and 
 * Configure `STRAPI_URL`
 * Add webhook to Next.js URL
 
----
-
-## 🔐 Strapi Admin Access (To Be Provided After Deployment)
-
-The project includes a Strapi v5 backend.
-A temporary reviewer account will be created upon deployment.
-
-**Admin URL:**
-*Deployment pending — will be updated*
-
-**Planned Reviewer Credentials:**
-
-```
-Email: reviewer@project.com
-Password: Reviewer123!
-```
-
-**Note:**
-Once Strapi is deployed, these credentials will be activated and updated here.
 
 ---
 # 🎥 Demo Recording
