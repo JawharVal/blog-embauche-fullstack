@@ -1,6 +1,6 @@
 # 🚀 Full-Stack Blog Platform
 
-Next.js 16 (App Router) + Strapi v5 + TailwindCSS + TypeScript
+Next.js 16 (App Router) + Strapi v5 + TailwindCSS + TypeScript .
 
 A complete blog platform including content modeling, typed API integration, SEO, ISR, RSS, Sitemap, newsletter form, and dark mode.
 
