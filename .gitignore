@@ -33,3 +33,4 @@ Thumbs.db
 
 # Typescript build output
 dist/
+"strapi-blog-cms/export_*.tar.gz.enc" 
