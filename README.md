@@ -359,19 +359,11 @@ All diagrams provided in PlantUML + PNG.
 
 # 🚀 Deployment
 
-Note : Depoloyment will be made in the future due to the limitation of time and resources.
+### **Strapi —  Railway**
 
-### **Frontend — Vercel**
-
-* Add `.env` variables
-* Build command: `npm run build`
-* Output: `.next`
-
-### **Strapi — Render / Railway**
-
-* Deploy backend
-* Configure `STRAPI_URL`
-* Add webhook to Next.js URL
+* Deploy backend at : [src="strapi-blog-cms-production.up.railway.app"](https://strapi-blog-cms-production.up.railway.app/admin)
+* Email:reviewer@project.com
+* Password:Reviewer123!
 
 
 ---
