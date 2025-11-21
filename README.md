@@ -93,6 +93,21 @@ REVALIDATE_SECRET=mysecret123
 
 ---
 
+
+for strapi 
+```env
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=
+API_TOKEN_SALT=
+ADMIN_JWT_SECRET=
+TRANSFER_TOKEN_SALT=
+
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=./data.db
+```
+
+
 ## ▶️ Running the project
 
 ### **Start Strapi**
