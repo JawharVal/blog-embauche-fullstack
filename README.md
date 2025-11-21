@@ -365,7 +365,8 @@ All diagrams provided in PlantUML + PNG.
 * Email:reviewer@project.com
 * Password:Reviewer123!
 
-
+### **Vercel Deployment ** ### 
+Due the contrast of time and resources, the frontend deployment will be made later on.
 ---
 # 🎥 Demo Recording
 
